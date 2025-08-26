@@ -41,6 +41,35 @@ Flashing LED light for 'ready to launch' indication (sent from base station)
 **Base Station:**
 
 
+Dewalt Battery ✔
 
-Some stuff here...
+Dewalt Battery Connector ✔ Use screw terminals
+	- What is the gauge of the wires?
+
+Engine Ignition 
+	- What have you used for ignition before?
+
+Shutdown switch 
+	- No problem 
+
+UVLO in hardware 
+	- What Voltage are the batteries we are using? 
+	- What is the lowest acceptable Voltage before we should cut off?
+	
+	- Send signal to Pico for safe shutdown
+	- Check for Pico to signal safe shutdown completed
+	- Cut power regardless if Voltage is too low
+	- UVLO indicator LED and indicator buzzer?
+
+Power cut circuit 
+	
+Power Indicator LED
+
+Flashing Ready Indicator LED - What are the ready conditions?
+	- Shutdown switch = not in shutdown state
+	- Signal from Lauch Controller rx by the Pi
+
+Bright Orange Flashing Caution Countdown LED - and buzzer?
+
+
 
